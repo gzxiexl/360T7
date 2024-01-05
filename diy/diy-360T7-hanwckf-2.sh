@@ -30,6 +30,7 @@ sed -i 's/ImmortalWrt/360T7/g' package/base-files/files/bin/config_generate   # 
 # git clone --depth 1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
 # git clone --depth 1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
 # git clone --depth 1 -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
+git clone --depth 1 https://github.com/gdy666/luci-app-lucky.git package/lucky
 
 # 科学上网插件
 # svn co https://github.com/kiddin9/openwrt-bypass/trunk/luci-app-bypass package/luci-app-bypass
